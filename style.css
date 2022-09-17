@@ -13,13 +13,28 @@ div {
     /* flex: 1; */
 }
 
+
 .header {
+    justify-content: space-between;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header, .hero{
     background-color: #1F2937;
     margin: 0;
-    padding: 0;
+    padding-left: 24px;
+    padding-right: 24px;
     display: flex;
     color: #F9FAF8;
-    justify-content: space-between;
+    
+}
+
+.hero {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    display: flex;
+    /* justify-content: center; */
 }
 
 .logo {
@@ -38,4 +53,46 @@ ul {
 a {
     text-decoration: none;
     color: #F9FAF8
+}
+
+button{
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    background: #3882f6;
+    padding: 10px 20px;
+}
+
+.hero-title {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 16px;
+}
+.hero-image {
+    background-color: #6D747D;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 100px;
+    margin-left: 12px;
+}
+
+.hero-left, .hero-right {
+    flex: 1;
+}
+
+.hero-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
