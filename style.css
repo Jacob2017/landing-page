@@ -96,3 +96,45 @@ button{
     align-items: center;
     justify-content: center;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 72px;
+}
+
+.info-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+
+.info-images {
+    display: flex;
+    align-items: center;
+    
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #6D747D;
+}
+
+.image-square {
+    border: 2px solid #3882f6;
+    border-radius: 25px;
+    padding: 22px;
+    width: 100px;
+    height: 100px;
+}
