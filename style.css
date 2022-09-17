@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+div {
+    border-style: solid;
+    flex: 1;
+}
