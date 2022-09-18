@@ -101,7 +101,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 24px 72px;
+    padding: 24px 80px;
 }
 
 .info-title {
@@ -122,7 +122,8 @@ button{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin: 12px;
+    flex: 1
 }
 
 p {
@@ -137,4 +138,76 @@ p {
     padding: 22px;
     width: 100px;
     height: 100px;
+}
+
+.section-quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 80px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.thor {
+    font-weight: bold;
+    text-align: right;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+}
+
+.action-box {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 25px;
+    margin: 80px;
+    padding: 40px 80px;
+}
+
+.action-left {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.action-header, .action-secondary {
+    
+    color: white;
+    
+}
+
+.action-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.action-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+}
+
+.b2 {
+    border: 2px white solid;
+    border-radius: 12px;
+    height: 40px;
+    padding: 8px 20px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 24px 0;
 }
